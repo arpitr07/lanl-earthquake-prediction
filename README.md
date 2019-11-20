@@ -1,7 +1,7 @@
 # lanl-earthquake-prediction
 
 This notebook summarizes my work as a participant in a Kaggle Competetion.
-Here's [link](https://www.kaggle.com/c/LANL-Earthquake-Prediction) to the competition itself.
+Here's a [link](https://www.kaggle.com/c/LANL-Earthquake-Prediction) to the competition itself.
 
 The goal of this competition was to use seismic signals to predict the timing of laboratory earthquakes. The data comes from a well-known experimental set-up used to study earthquake physics. The acoustic_data input signal is used to predict the time remaining before the next laboratory earthquake (time_to_failure).
 
@@ -24,3 +24,7 @@ For each seg_id in the test folder, you should predict a single time_to_failure 
 *time_to_failure* - the time (in seconds) until the next laboratory earthquake [float64]
 
 *seg_id* - the test segment ids for which predictions should be made (one prediction per segment)
+
+One can download the data-files from the competition page. Link to the [data-set](https://www.kaggle.com/c/LANL-Earthquake-Prediction/data)
+
+The file-size is greater than 250MB and hence, not uploade here.
